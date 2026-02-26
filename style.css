@@ -1,0 +1,137 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI" , sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+    }
+
+    header {
+        background: #111;
+        padding: 15px 50px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .logo {
+        color: #00c6ff;
+
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+
+    }
+
+    nav ul li{
+        margin-left: 20px;
+
+    }
+
+    nav ul li {
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .hero {
+        height: 100vh;
+        background: linear-gradient(135deg, #11ace9 , #0dda29);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding-top: 80px;
+    
+    }
+
+    .hero img {
+        border-radius: 50%;
+        margin-bottom: 20px;
+
+    }
+
+    .hero button {
+        padding: 10px 20px;
+        background: white;
+        color:#0072ff;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        margin-top: 15px;
+
+    }
+
+    .section {
+        padding: 80px 50px;
+        text-align: center;
+
+    }
+
+    .dark {
+        background: #f4f4f4;
+
+    }
+
+    .skills {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .skill {
+        margin:20px 0;
+    }
+
+    .bar {
+        background: #ddd;
+        height: 10px ;
+        border-radius: 10px;
+    }
+
+    .progress {
+height: 10px;
+border-radius: 10px;
+
+    }
+
+    .html { width: 90%; background: #0bc6ff;}
+    .css { width: 85%; background: #12ce12;}
+    .js { width: 75%; background: #046d33;}
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+
+    }
+
+    .cards {
+        background: #00c6ff;
+        padding: 20px;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: #046d33;
+
+    }
+
+    footer{
+        background: #111;
+        color:#ddd;
+        text-align: center;
+        padding: 20px;
+
+    }
